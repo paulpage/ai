@@ -25,6 +25,13 @@ cmake --build build-x64-windows-vulkan-release
 
 Run with `ai.bat voice`, then `uv run whisper_demo.py` in another tab.
 
+
+# Kev decision model - Windows Installation
+```
+cd kev
+uv sync --extra serve
+```
+
 # To Do
 - Look into search - Brave search API: https://api-dashboard.search.brave.com/app/plans?
 - Look into System-one based decision models like [kev](https://github.com/jaredpalmer/kev.git)
